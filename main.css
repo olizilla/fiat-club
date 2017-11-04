@@ -1,0 +1,100 @@
+body {
+  padding:0;
+  margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  background:black;
+  color: snow;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  min-height: 100vh;
+  display: table;
+  font-weight: 300;
+  font-size: 60px;
+  font-family: Courier Prime Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  text-shadow: 1px 1px #333;
+}
+
+.invert {
+  background:white;
+  color: black;
+}
+
+.blink {
+  text-decoration: blink;
+}
+
+code {
+  font-family: "Envy Code R", "Courier New", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  font-family: avenir next, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.align-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.white {
+  color: white;
+}
+
+.text-shadow-dark {
+  text-shadow: 1px 1px #333;
+}
+
+.red-cross {
+  display: inline-block;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 20px;
+}
+.red-cross::before,
+.red-cross::after {
+  content: '';
+  display: block;
+  background: red;
+  position: absolute;
+}
+.red-cross::before {
+  width: 80px;
+  height: 260px;
+  left: 90px;
+}
+.red-cross::after {
+  width: 260px;
+  height: 80px;
+  top: 90px;
+}
+
+.tableflip {
+  display: inline-block;
+  width: 60px;
+  height: 70px;
+  background: url(https://tableflip.io/img/tableflip.min.svg) no-repeat;
+  background-size: 100% auto;
+  font-size:0;
+  user-select: none;
+  opacity: 0.8;
+  transition: opacity 400ms;
+}
+.tableflip:hover {
+  opacity: 1;
+}

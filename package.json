@@ -1,0 +1,15 @@
+{
+  "name": "fiat-club",
+  "version": "1.0.0",
+  "description": "Let there be money",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.6"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files ."
+  },
+  "author": "olizilla",
+  "license": "AGPL-3.0"
+}
