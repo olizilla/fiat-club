@@ -1,10 +1,6 @@
 
 
-# Fiat club
-
-**_Let there be money_**
-
----
+# ![Fiat club - Let there be money](https://user-images.githubusercontent.com/58871/32410502-6753bac6-c1b9-11e7-821f-6b6b6494c97c.png)
 
 This talk is a prelude. I wanted to write a talk about what cryptocurrency is, but in trying to do so, realised I didn't know what money is.
 
