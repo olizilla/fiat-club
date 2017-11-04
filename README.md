@@ -6,7 +6,7 @@
 
 ---
 
-> This talk is a prelude. I wanted to write a talk about what cryptocurrency is, but in trying to do so, realised I didn't know what money is.
+This talk is a prelude. I wanted to write a talk about what cryptocurrency is, but in trying to do so, realised I didn't know what money is.
 
 For @bmordan
 
