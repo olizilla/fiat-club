@@ -27,10 +27,6 @@ section {
   color: black;
 }
 
-.blink {
-  text-decoration: blink;
-}
-
 code {
   font-family: "Envy Code R", "Courier New", Courier, monospace;
 }
@@ -38,12 +34,6 @@ code {
 a {
   text-decoration: none;
   color: white;
-}
-
-input {
-  font-family: avenir next, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 40px;
-  font-weight: 300;
 }
 
 .align-middle {
@@ -59,42 +49,26 @@ input {
   text-shadow: 1px 1px #333;
 }
 
-.red-cross {
-  display: inline-block;
-  position: relative;
-  width: 260px;
-  height: 260px;
-  margin: 20px;
-}
-.red-cross::before,
-.red-cross::after {
-  content: '';
-  display: block;
-  background: red;
-  position: absolute;
-}
-.red-cross::before {
-  width: 80px;
-  height: 260px;
-  left: 90px;
-}
-.red-cross::after {
-  width: 260px;
-  height: 80px;
-  top: 90px;
+@font-face {
+  font-family: "Courier Prime Sans";
+  src: url("font/courier-prime-sans.woff") format("woff");
 }
 
-.tableflip {
-  display: inline-block;
-  width: 60px;
-  height: 70px;
-  background: url(https://tableflip.io/img/tableflip.min.svg) no-repeat;
-  background-size: 100% auto;
-  font-size:0;
-  user-select: none;
-  opacity: 0.8;
-  transition: opacity 400ms;
+@font-face {
+  font-family: "Courier Prime Sans";
+  font-weight: 700;
+  src: url("font/courier-prime-sans-bold.woff") format("woff");
 }
-.tableflip:hover {
-  opacity: 1;
+
+@font-face {
+  font-family: "Courier Prime Sans";
+  font-style: italic;
+  src: url("font/courier-prime-sans-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Courier Prime Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("font/courier-prime-sans-italic.woff") format("woff");
 }
