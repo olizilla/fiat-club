@@ -25,16 +25,20 @@ const back = () => {
 }
 
 const keyboardNav = (evt) => {
-  console.log(evt.key)
   const keyMap = {
     ArrowLeft: back,
+    LeftArrow: back,
     ArrowUp: back,
+    UpArrow: back,
     ArrowRight: fwd,
+    RightArrow: fwd,
     ArrowDown: fwd,
+    DownArrow: fwd,
     Space: fwd
   }
-  const fn = keyMap[evt.key]
-  if (fn) fn()
+  for (let key of Object.keys(keyMap)) {
+    if (evt.key.endsWith(key)) return keyMap[key]()
+  }
 }
 
 document.addEventListener('keydown', keyboardNav)
